@@ -172,14 +172,26 @@
     height: 50px;
     align-content: center;
     justify-content: space-between;
-}
-
-/*.centrale {
-    background-color: #228B22;
-    height: 80%;
-    width: 70%;
-    align-content: center;
-    display: flex;
+    border: solid white 1px;
     flex-wrap: wrap;
 }
-*/
+
+.ultimo {
+    background-color: #FFB6C1;
+    height: 80%;
+    width: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+/*
+.ultimo.primo {
+    justify-content: flex-start;
+}
+.ultimo.secondo {
+    justify-content: flex-end;
+}
+/*
