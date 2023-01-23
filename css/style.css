@@ -53,5 +53,22 @@
 .content {
     height: 80%;
     background-color: #EE82EE;
-    width: 800px;
+    width: 500px;
+}
+.sezione1 {
+    background-color: white;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sinistro{
+    background-color: #1E90FF;
+    height: 80%;
+    width: 40%;
+}
+.destro{
+    background-color: #FFC0CB;
+    height: 80%;
+    width: 30%;
 }
