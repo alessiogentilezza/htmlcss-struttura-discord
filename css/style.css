@@ -172,7 +172,7 @@
     height: 50px;
     align-content: center;
     justify-content: space-between;
-    border: solid white 1px;
+    /*border: solid white 1px;*/
     flex-wrap: wrap;
 }
 
