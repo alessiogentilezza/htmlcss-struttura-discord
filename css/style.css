@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container {
+.container-flex {
     max-width: 1170px;
     margin: auto;
+    display: flex;
 }
 .header-top {
     display: flex;
@@ -25,12 +26,15 @@
 .primo {
     width: 20%;
     justify-content:flex-start;
+
 }
 .secondo {
     width: 60%;
     justify-content:center;
+
 }
 .terzo {
     width: 20%;
     justify-content:flex-end;
+
 }
