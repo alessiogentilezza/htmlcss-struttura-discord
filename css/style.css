@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.header-top {
+    display: flex;
+    background-color: #ADD8E6;
+    height: 100px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.nav {
+    background-color: #DAA520;
+    height: 70px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;    
+}
+.primo {
+    width: 20%;
+    justify-content:flex-start;
+}
+.secondo {
+    width: 60%;
+    justify-content:center;
+}
+.terzo {
+    width: 20%;
+    justify-content:flex-end;
+}
