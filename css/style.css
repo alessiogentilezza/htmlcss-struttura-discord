@@ -173,3 +173,12 @@
     align-content: center;
     justify-content: space-between;
 }
+/*.centrale {
+    background-color: #228B22;
+    height: 80%;
+    width: 70%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
