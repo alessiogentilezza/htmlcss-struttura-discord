@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
 
 .container-flex {
     max-width: 1170px;
@@ -17,9 +21,9 @@
 }
 
 .nav {
+    display: flex;
     background-color: #DAA520;
     height: 30px;
-    display: flex;
     align-content: center;
     flex-wrap: wrap;
 }
@@ -54,15 +58,10 @@
 .content {
     height: 80%;
     background-color: #EE82EE;
-    width: 500px;
+    width: 50%;
     align-content: center;
     display: flex;
     flex-wrap: wrap;
-}
-
-.container {
-    max-width: 1170px;
-    margin: auto;
 }
 
 .sezione {
@@ -103,10 +102,12 @@
 .sezione.terza {
     background-color: white;
 }
+
 .sezione.quarta {
     background-color: #D3D3D3;
     height: 800px;
 }
+
 .centrale {
     background-color: #228B22;
     height: 80%;
@@ -114,4 +115,61 @@
     align-content: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.footer-top {
+    display: flex;
+    background-color: #23272A;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.colonna1 {
+    background-color: #F08080;
+    height: 90%;
+    width: calc(70% / 6 * 2);
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colonna2 {
+    background-color: #20B2AA;
+    height: 90%;
+    width: calc(70% / 6);
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colonna3 {
+    background-color: #20B2AA;
+    height: 90%;
+    width: calc(70% / 6);
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colonna4 {
+    background-color: #20B2AA;
+    height: 90%;
+    width: calc(70% / 6);
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colonna5 {
+    background-color: #20B2AA;
+    height: 90%;
+    width: calc(70% / 6);
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-bottom {
+    display: flex;
+    background-color: #23272A;
+    height: 50px;
+    align-content: center;
+    justify-content: space-between;
 }
