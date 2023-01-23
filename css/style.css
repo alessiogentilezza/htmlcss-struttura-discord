@@ -55,9 +55,18 @@
     height: 80%;
     background-color: #EE82EE;
     width: 500px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
 }
 
 .sezione {
+    display: flex;
     height: 400px;
     align-content: center;
     justify-content: center;
@@ -72,12 +81,18 @@
     background-color: #1E90FF;
     height: 80%;
     width: 40%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .destro {
     background-color: #FFC0CB;
     height: 80%;
     width: 30%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sezione.seconda {
@@ -87,4 +102,16 @@
 
 .sezione.terza {
     background-color: white;
+}
+.sezione.quarta {
+    background-color: #D3D3D3;
+    height: 800px;
+}
+.centrale {
+    background-color: #228B22;
+    height: 80%;
+    width: 70%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
